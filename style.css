@@ -45,30 +45,30 @@ a:hover {
 }
 
 .creditos_txt {
+  margin-left: 70px;
   font-weight: bold;
-}
-
-.creditos {
 }
 
 .valor_txt {
   font-weight: bold;
-  margin-left: 40px;
+  margin-left: 250px;
 }
 
 .valor {
-  margin-left: 50px;
+  margin-left: 200px;
 }
 
 .aposta {
+  margin-top: 5px;
   border-radius: 10px;
-  width: 80px;
+  width: 200px;
   height: 30px;
   border: rgb(173, 173, 173) solid 2px;
 }
 .credito {
+  margin-top: 5px;
   border-radius: 10px;
-  width: 80px;
+  width: 200px;
   height: 30px;
   border: rgb(173, 173, 173) solid 2px;
 }
@@ -164,7 +164,7 @@ a:hover {
 }
 .spinButton {
   margin-top: 150px;
-  margin-left: -50px;
+  margin-left: -430px;
 }
 
 .mais {
