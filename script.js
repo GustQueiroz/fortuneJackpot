@@ -48,202 +48,66 @@ function betTenMore() {
 }
 
 function verificaPremio() {
-  if (slt1 == 1 && slt2 == 2 && slt3 == 3 && slt4 == 4) {
-    aposta = parseInt(aposta);
-    credito = credito + aposta * 2;
-    document.getElementById("credito").value = "R$ " + credito;
-    window.alert("Parabéns, você ganhou um prêmio de R$ " + aposta * 2 + ".");
-  }
+  const combinacoesPremio = [
+    [1, 2, 3, 4],
+    [1, 2, 4, 3],
+    [1, 3, 2, 4],
+    [1, 3, 4, 2],
+    [1, 4, 2, 3],
+    [1, 4, 3, 2],
+    [2, 1, 3, 4],
+    [2, 1, 4, 3],
+    [2, 3, 1, 4],
+    [2, 3, 4, 1],
+    [2, 4, 1, 3],
+    [2, 4, 3, 1],
+    [3, 2, 1, 4],
+    [3, 2, 4, 1],
+    [3, 1, 2, 4],
+    [3, 1, 4, 2],
+    [3, 4, 2, 1],
+    [3, 4, 1, 2],
+    [4, 2, 3, 1],
+    [4, 2, 1, 3],
+    [4, 3, 2, 1],
+    [4, 3, 1, 2],
+    [4, 1, 2, 3],
+    [4, 1, 3, 2],
+    [1, 1, 1, 1],
+    [2, 2, 2, 2],
+    [3, 3, 3, 3],
+    [4, 4, 4, 4],
+  ];
 
-  if (slt1 == 1 && slt2 == 2 && slt3 == 4 && slt4 == 3) {
-    aposta = parseInt(aposta);
-    credito = credito + aposta * 2;
-    document.getElementById("credito").value = "R$ " + credito;
-    window.alert("Parabéns, você ganhou um prêmio de R$ " + aposta * 2 + ".");
-  }
+  for (const combinacao of combinacoesPremio) {
+    if (
+      slt1 === combinacao[0] &&
+      slt2 === combinacao[1] &&
+      slt3 === combinacao[2] &&
+      slt4 === combinacao[3]
+    ) {
+      aposta = parseInt(aposta);
+      let premioMultiplicador = 2;
 
-  if (slt1 == 1 && slt2 == 3 && slt3 == 2 && slt4 == 4) {
-    aposta = parseInt(aposta);
-    credito = credito + aposta * 2;
-    document.getElementById("credito").value = "R$ " + credito;
-    window.alert("Parabéns, você ganhou um prêmio de R$ " + aposta * 2 + ".");
-  }
+      if (combinacao.every((valor) => valor === 1)) {
+        premioMultiplicador = 5;
+      } else if (combinacao.every((valor) => valor === 2)) {
+        premioMultiplicador = 10;
+      } else if (combinacao.every((valor) => valor === 3)) {
+        premioMultiplicador = 20;
+      } else if (combinacao.every((valor) => valor === 4)) {
+        premioMultiplicador = 50;
+      }
 
-  if (slt1 == 1 && slt2 == 3 && slt3 == 4 && slt4 == 2) {
-    aposta = parseInt(aposta);
-    credito = credito + aposta * 2;
-    document.getElementById("credito").value = "R$ " + credito;
-    window.alert("Parabéns, você ganhou um prêmio de R$ " + aposta * 2 + ".");
-  }
-
-  if (slt1 == 1 && slt2 == 4 && slt3 == 2 && slt4 == 3) {
-    aposta = parseInt(aposta);
-    credito = credito + aposta * 2;
-    document.getElementById("credito").value = "R$ " + credito;
-    window.alert("Parabéns, você ganhou um prêmio de R$ " + aposta * 2 + ".");
-  }
-
-  if (slt1 == 1 && slt2 == 4 && slt3 == 3 && slt4 == 2) {
-    aposta = parseInt(aposta);
-    credito = credito + aposta * 2;
-    document.getElementById("credito").value = "R$ " + credito;
-    window.alert("Parabéns, você ganhou um prêmio de R$ " + aposta * 2 + ".");
-  }
-
-  if (slt1 == 2 && slt2 == 1 && slt3 == 3 && slt4 == 4) {
-    aposta = parseInt(aposta);
-    credito = credito + aposta * 2;
-    document.getElementById("credito").value = "R$ " + credito;
-    window.alert("Parabéns, você ganhou um prêmio de R$ " + aposta * 2 + ".");
-  }
-
-  if (slt1 == 2 && slt2 == 1 && slt3 == 4 && slt4 == 3) {
-    aposta = parseInt(aposta);
-    credito = credito + aposta * 2;
-    document.getElementById("credito").value = "R$ " + credito;
-    window.alert("Parabéns, você ganhou um prêmio de R$ " + aposta * 2 + ".");
-  }
-
-  if (slt1 == 2 && slt2 == 3 && slt3 == 1 && slt4 == 4) {
-    aposta = parseInt(aposta);
-    credito = credito + aposta * 2;
-    document.getElementById("credito").value = "R$ " + credito;
-    window.alert("Parabéns, você ganhou um prêmio de R$ " + aposta * 2 + ".");
-  }
-
-  if (slt1 == 2 && slt2 == 3 && slt3 == 4 && slt4 == 1) {
-    aposta = parseInt(aposta);
-    credito = credito + aposta * 2;
-    document.getElementById("credito").value = "R$ " + credito;
-    window.alert("Parabéns, você ganhou um prêmio de R$ " + aposta * 2 + ".");
-  }
-
-  if (slt1 == 2 && slt2 == 4 && slt3 == 1 && slt4 == 3) {
-    aposta = parseInt(aposta);
-    credito = credito + aposta * 2;
-    document.getElementById("credito").value = "R$ " + credito;
-    window.alert("Parabéns, você ganhou um prêmio de R$ " + aposta * 2 + ".");
-  }
-
-  if (slt1 == 2 && slt2 == 4 && slt3 == 3 && slt4 == 1) {
-    aposta = parseInt(aposta);
-    credito = credito + aposta * 2;
-    document.getElementById("credito").value = "R$ " + credito;
-    window.alert("Parabéns, você ganhou um prêmio de R$ " + aposta * 2 + ".");
-  }
-
-  if (slt1 == 3 && slt2 == 2 && slt3 == 1 && slt4 == 4) {
-    aposta = parseInt(aposta);
-    credito = credito + aposta * 2;
-    document.getElementById("credito").value = "R$ " + credito;
-    window.alert("Parabéns, você ganhou um prêmio de R$ " + aposta * 2 + ".");
-  }
-
-  if (slt1 == 3 && slt2 == 2 && slt3 == 4 && slt4 == 1) {
-    aposta = parseInt(aposta);
-    credito = credito + aposta * 2;
-    document.getElementById("credito").value = "R$ " + credito;
-    window.alert("Parabéns, você ganhou um prêmio de R$ " + aposta * 2 + ".");
-  }
-
-  if (slt1 == 3 && slt2 == 1 && slt3 == 2 && slt4 == 4) {
-    aposta = parseInt(aposta);
-    credito = credito + aposta * 2;
-    document.getElementById("credito").value = "R$ " + credito;
-    window.alert("Parabéns, você ganhou um prêmio de R$ " + aposta * 2 + ".");
-  }
-
-  if (slt1 == 3 && slt2 == 1 && slt3 == 4 && slt4 == 2) {
-    aposta = parseInt(aposta);
-    credito = credito + aposta * 2;
-    document.getElementById("credito").value = "R$ " + credito;
-    window.alert("Parabéns, você ganhou um prêmio de R$ " + aposta * 2 + ".");
-  }
-
-  if (slt1 == 3 && slt2 == 4 && slt3 == 2 && slt4 == 1) {
-    aposta = parseInt(aposta);
-    credito = credito + aposta * 2;
-    document.getElementById("credito").value = "R$ " + credito;
-    window.alert("Parabéns, você ganhou um prêmio de R$ " + aposta * 2 + ".");
-  }
-
-  if (slt1 == 3 && slt2 == 4 && slt3 == 1 && slt4 == 2) {
-    aposta = parseInt(aposta);
-    credito = credito + aposta * 2;
-    document.getElementById("credito").value = "R$ " + credito;
-    window.alert("Parabéns, você ganhou um prêmio de R$ " + aposta * 2 + ".");
-  }
-
-  if (slt1 == 4 && slt2 == 2 && slt3 == 3 && slt4 == 1) {
-    aposta = parseInt(aposta);
-    credito = credito + aposta * 2;
-    document.getElementById("credito").value = "R$ " + credito;
-    window.alert("Parabéns, você ganhou um prêmio de R$ " + aposta * 2 + ".");
-  }
-
-  if (slt1 == 4 && slt2 == 2 && slt3 == 1 && slt4 == 3) {
-    aposta = parseInt(aposta);
-    credito = credito + aposta * 2;
-    document.getElementById("credito").value = "R$ " + credito;
-    window.alert("Parabéns, você ganhou um prêmio de R$ " + aposta * 2 + ".");
-  }
-
-  if (slt1 == 4 && slt2 == 3 && slt3 == 2 && slt4 == 1) {
-    aposta = parseInt(aposta);
-    credito = credito + aposta * 2;
-    document.getElementById("credito").value = "R$ " + credito;
-    window.alert("Parabéns, você ganhou um prêmio de R$ " + aposta * 2 + ".");
-  }
-
-  if (slt1 == 4 && slt2 == 3 && slt3 == 1 && slt4 == 2) {
-    aposta = parseInt(aposta);
-    credito = credito + aposta * 2;
-    document.getElementById("credito").value = "R$ " + credito;
-    window.alert("Parabéns, você ganhou um prêmio de R$ " + aposta * 2 + ".");
-  }
-
-  if (slt1 == 4 && slt2 == 1 && slt3 == 2 && slt4 == 3) {
-    aposta = parseInt(aposta);
-    credito = credito + aposta * 2;
-    document.getElementById("credito").value = "R$ " + credito;
-    window.alert("Parabéns, você ganhou um prêmio de R$ " + aposta * 2 + ".");
-  }
-
-  if (slt1 == 4 && slt2 == 1 && slt3 == 3 && slt4 == 2) {
-    aposta = parseInt(aposta);
-    credito = credito + aposta * 2;
-    document.getElementById("credito").value = "R$ " + credito;
-    window.alert("Parabéns, você ganhou um prêmio de R$ " + aposta * 2 + ".");
-  }
-  //fim dos prêmios menores
-
-  //inicio dos premios maiores
-  if (slt1 == 1 && slt2 == 1 && slt3 == 1 && slt4 == 1) {
-    aposta = parseInt(aposta);
-    credito = credito + aposta * 5;
-    document.getElementById("credito").value = "R$ " + credito;
-    window.alert("Parabéns, você ganhou um prêmio de R$ " + aposta * 5 + ".");
-  }
-
-  if (slt1 == 2 && slt2 == 2 && slt3 == 2 && slt4 == 2) {
-    aposta = parseInt(aposta);
-    credito = credito + aposta * 10;
-    document.getElementById("credito").value = "R$ " + credito;
-    window.alert("Parabéns, você ganhou um prêmio de R$ " + aposta * 10 + ".");
-  }
-
-  if (slt1 == 3 && slt2 == 3 && slt3 == 3 && slt4 == 3) {
-    aposta = parseInt(aposta);
-    credito = credito + aposta * 20;
-    document.getElementById("credito").value = "R$ " + credito;
-    window.alert("Parabéns, você ganhou um prêmio de R$ " + aposta * 20 + ".");
-  }
-
-  if (slt1 == 4 && slt2 == 4 && slt3 == 4 && slt4 == 4) {
-    aposta = parseInt(aposta);
-    credito = credito + aposta * 50;
-    document.getElementById("credito").value = "R$ " + credito;
-    window.alert("Parabéns, você ganhou um prêmio de R$ " + aposta * 50 + ".");
+      credito += aposta * premioMultiplicador;
+      document.getElementById("credito").value = "R$ " + credito;
+      window.alert(
+        "Parabéns, você ganhou um prêmio de R$ " +
+          aposta * premioMultiplicador +
+          "."
+      );
+      break;
+    }
   }
 }
 
