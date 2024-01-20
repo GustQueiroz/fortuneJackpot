@@ -13,6 +13,7 @@ let aux = 0;
 let aposta = 1;
 let nSort = 0;
 let slt1, slt2, slt3, slt4;
+let sequenciaDerrotas = 0;
 
 function random(inferior, superior) {
   numPossibilidades = superior - inferior;
@@ -48,6 +49,8 @@ function betTenMore() {
 }
 
 function verificaPremio() {
+  const chanceDeGanharBase = 0.4;
+  const chanceDeGanhar = sequenciaDerrotas >= 4 ? 0.49 : chanceDeGanharBase;
   const combinacoesPremio = [
     [1, 2, 3, 4],
     [1, 2, 4, 3],
