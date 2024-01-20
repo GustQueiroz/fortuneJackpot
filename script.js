@@ -270,25 +270,25 @@ function jogar() {
       switch (nSort) {
         case 1:
           cont = setTimeout(function () {
-            document.getElementById("escud1").src = "img/botafogo.png";
+            document.getElementById("escud1").src = "img/palmeiras.png";
           }, 2000);
           slt1 = 1;
           break;
         case 2:
           cont = setTimeout(function () {
-            document.getElementById("escud1").src = "img/flamengo.png";
+            document.getElementById("escud1").src = "img/saoPaulo.png";
           }, 4000);
           slt1 = 2;
           break;
         case 3:
           cont = setTimeout(function () {
-            document.getElementById("escud1").src = "img/fluminense.png";
+            document.getElementById("escud1").src = "img/corinthians.png";
           }, 2000);
           slt1 = 3;
           break;
         case 4:
           cont = setTimeout(function () {
-            document.getElementById("escud1").src = "img/vasco.png";
+            document.getElementById("escud1").src = "img/santos.png";
           }, 2000);
           slt1 = 4;
           break;
@@ -298,25 +298,25 @@ function jogar() {
       switch (nSort) {
         case 1:
           cont = setTimeout(function () {
-            document.getElementById("escud2").src = "img/botafogo.png";
+            document.getElementById("escud2").src = "img/palmeiras.png";
           }, 3000);
           slt2 = 1;
           break;
         case 2:
           cont = setTimeout(function () {
-            document.getElementById("escud2").src = "img/flamengo.png";
+            document.getElementById("escud2").src = "img/saoPaulo.png";
           }, 3000);
           slt2 = 2;
           break;
         case 3:
           cont = setTimeout(function () {
-            document.getElementById("escud2").src = "img/fluminense.png";
+            document.getElementById("escud2").src = "img/corinthians.png";
           }, 3000);
           slt2 = 3;
           break;
         case 4:
           cont = setTimeout(function () {
-            document.getElementById("escud2").src = "img/vasco.png";
+            document.getElementById("escud2").src = "img/santos.png";
           }, 3000);
           slt2 = 4;
           break;
@@ -326,25 +326,25 @@ function jogar() {
       switch (nSort) {
         case 1:
           cont = setTimeout(function () {
-            document.getElementById("escud3").src = "img/botafogo.png";
+            document.getElementById("escud3").src = "img/palmeiras.png";
           }, 4000);
           slt3 = 1;
           break;
         case 2:
           cont = setTimeout(function () {
-            document.getElementById("escud3").src = "img/flamengo.png";
+            document.getElementById("escud3").src = "img/saoPaulo.png";
           }, 4000);
           slt3 = 2;
           break;
         case 3:
           cont = setTimeout(function () {
-            document.getElementById("escud3").src = "img/fluminense.png";
+            document.getElementById("escud3").src = "img/corinthians.png";
           }, 4000);
           slt3 = 3;
           break;
         case 4:
           cont = setTimeout(function () {
-            document.getElementById("escud3").src = "img/vasco.png";
+            document.getElementById("escud3").src = "img/santos.png";
           }, 4000);
           slt3 = 4;
           break;
@@ -354,25 +354,25 @@ function jogar() {
       switch (nSort) {
         case 1:
           cont = setTimeout(function () {
-            document.getElementById("escud4").src = "img/botafogo.png";
+            document.getElementById("escud4").src = "img/palmeiras.png";
           }, 5000);
           slt4 = 1;
           break;
         case 2:
           cont = setTimeout(function () {
-            document.getElementById("escud4").src = "img/flamengo.png";
+            document.getElementById("escud4").src = "img/saoPaulo.png";
           }, 5000);
           slt4 = 2;
           break;
         case 3:
           cont = setTimeout(function () {
-            document.getElementById("escud4").src = "img/fluminense.png";
+            document.getElementById("escud4").src = "img/corinthians.png";
           }, 5000);
           slt4 = 3;
           break;
         case 4:
           cont = setTimeout(function () {
-            document.getElementById("escud4").src = "img/vasco.png";
+            document.getElementById("escud4").src = "img/santos.png";
           }, 5000);
           slt4 = 4;
           break;
