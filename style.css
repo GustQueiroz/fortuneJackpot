@@ -1,0 +1,194 @@
+body {
+  display: flex;
+  align-items: center;
+  background-color: #daf3a6;
+  margin: 0;
+  padding: 0;
+  background: url("img/backgroundImage.png") no-repeat center center fixed;
+  overflow: hidden;
+}
+
+h1 {
+  text-align: center;
+}
+
+a {
+  color: #000000;
+}
+
+a:hover {
+  color: #000000;
+}
+
+.body {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  height: 100%;
+}
+.header {
+  margin-top: 35px;
+}
+
+.tela {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 80px;
+  width: 900px;
+  height: 300px;
+  background-color: white;
+  border-radius: 20px;
+  border: rgb(173, 173, 173) solid 2px;
+}
+.moneyInputs {
+  display: flex;
+}
+
+.creditos_txt {
+  font-weight: bold;
+}
+
+.creditos {
+}
+
+.valor_txt {
+  font-weight: bold;
+  margin-left: 40px;
+}
+
+.valor {
+  margin-left: 50px;
+}
+
+.aposta {
+  border-radius: 10px;
+  width: 80px;
+  height: 30px;
+  border: rgb(173, 173, 173) solid 2px;
+}
+.credito {
+  border-radius: 10px;
+  width: 80px;
+  height: 30px;
+  border: rgb(173, 173, 173) solid 2px;
+}
+
+.slot1 {
+  margin-top: 80px;
+  padding-left: 57px;
+  padding-right: 57px;
+  float: left;
+  border-right: thin dashed black;
+  width: 90px;
+  height: 90px;
+  vertical-align: middle;
+}
+.escud1 {
+  width: 150px;
+  height: 150px;
+}
+.escud2 {
+  width: 150px;
+  height: 150px;
+}
+.escud3 {
+  width: 150px;
+  height: 150px;
+}
+.escud4 {
+  width: 150px;
+  height: 150px;
+}
+
+.slot2 {
+  margin-top: 80px;
+  padding-left: 57px;
+  padding-right: 57px;
+  float: left;
+  border-right: thin dashed black;
+  width: 90px;
+  height: 90px;
+  vertical-align: middle;
+}
+
+.slot3 {
+  margin-top: 80px;
+  padding-left: 57px;
+  padding-right: 57px;
+  float: left;
+  border-right: thin dashed black;
+  width: 90px;
+  height: 90px;
+  vertical-align: middle;
+}
+
+.slot4 {
+  margin-top: 80px;
+  padding-left: 57px;
+  padding-right: 57px;
+  float: left;
+  width: 90px;
+  height: 90px;
+  vertical-align: middle;
+}
+
+.rodapeImg {
+  margin-top: -250px;
+  margin-left: 1600px;
+}
+.rodapeTabela {
+  margin-top: -500px;
+  margin-left: 50px;
+}
+
+.iconTabela {
+  width: 300px;
+  height: 450px;
+}
+
+.iconImage {
+  width: 300px;
+  height: 300px;
+}
+
+.tabela {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-weight: bold;
+}
+.botoes {
+  margin-left: 650px;
+  margin-top: 80px;
+  width: 1920px;
+}
+.spinButton {
+  margin-top: 150px;
+  margin-left: -50px;
+}
+
+.mais {
+  width: 150px;
+  height: 40px;
+  margin-bottom: 10px;
+  background-color: #3eb2ff;
+  border-radius: 15px;
+  border: rgb(173, 173, 173) solid 2px;
+  cursor: pointer;
+}
+.menos {
+  width: 150px;
+  height: 40px;
+  background-color: #ff4d4d;
+  border-radius: 15px;
+  border: rgb(173, 173, 173) solid 2px;
+  cursor: pointer;
+}
+.menos:hover {
+  background-color: #ff2222;
+  border: rgb(156, 156, 156) solid 2px;
+}
+.mais:hover {
+  background-color: #16a2ff;
+  border: rgb(156, 156, 156) solid 2px;
+}

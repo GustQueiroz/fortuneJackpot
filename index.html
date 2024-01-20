@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Paulista Girl Fortune</title>
+    <link type="text/css" rel="stylesheet" href="style.css" />
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='1513' height='272' viewBox='0 0 1513 272' fill='none'%3E...%3C/svg%3E")
+          no-repeat center center fixed;
+        background-size: cover;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="body">
+      <div class="header"><h1>Paulista Girl</h1></div>
+
+      <div class="tela">
+        <div class="slot1" id="slot1">
+          <img class="escud1" id="escud1" src="img/botafogo.png" />
+        </div>
+        <div class="slot2">
+          <img class="escud2" id="escud2" src="img/flamengo.png" />
+        </div>
+        <div class="slot3">
+          <img class="escud3" id="escud3" src="img/fluminense.png" />
+        </div>
+        <div class="slot4">
+          <img class="escud4" id="escud4" src="img/vasco.png" />
+        </div>
+      </div>
+
+      <div class="botoes">
+        <div class="botoesApostas">
+          <button class="menos" onclick="betLess();">APOSTA -1</button>
+          <button class="menos" onclick="betTenLess();">APOSTA -10</button>
+          <button class="mais" onclick="betMore();">APOSTA +1</button>
+          <button class="mais" onclick="betTenMore();">APOSTA +10</button>
+        </div>
+
+        <div class="moneyInputs">
+          <div class="creditosContainer">
+            <label class="creditos_txt">Creditos</label>
+
+            <div class="creditos">
+              <form>
+                <input
+                  id="credito"
+                  class="credito"
+                  type="text"
+                  size="5"
+                  value="R$ 0"
+                  readonly
+                />
+              </form>
+            </div>
+          </div>
+          <div class="ApostaContainer">
+            <label class="valor_txt">Valor da Aposta</label>
+
+            <div class="valor">
+              <form>
+                <input
+                  id="aposta"
+                  class="aposta"
+                  type="text"
+                  size="1"
+                  value="R$ 1"
+                  readonly
+                />
+              </form>
+            </div>
+          </div>
+
+          <img
+            src="img/spin.png"
+            class="spinButton"
+            id="spinButton"
+            onmousedown="this.src='img/spinPressed.png';"
+            onmouseup="this.src='img/spin.png';"
+            onclick="jogar();"
+          />
+        </div>
+      </div>
+
+      <div class="rodapeImg">
+        <img class="iconImage" src="./img/jackpotLogo.png" />
+      </div>
+      <div class="rodapeTabela">
+        <img class="iconTabela" src="./img/tabela.png" />
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
