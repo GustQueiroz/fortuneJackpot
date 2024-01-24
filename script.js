@@ -22,6 +22,79 @@ function random(inferior, superior) {
   return parseInt(inferior) + aleat;
 }
 
+function randomValue() {
+  const combinations = [
+    [1, 2, 3, 4],
+    [1, 2, 4, 3],
+    [1, 3, 2, 4],
+    [1, 3, 4, 2],
+    [1, 4, 2, 3],
+    [1, 4, 3, 2],
+    [2, 1, 3, 4],
+    [2, 1, 4, 3],
+    [2, 3, 1, 4],
+    [2, 3, 4, 1],
+    [2, 4, 1, 3],
+    [2, 4, 3, 1],
+    [3, 2, 1, 4],
+    [3, 2, 4, 1],
+    [3, 1, 2, 4],
+    [3, 1, 4, 2],
+    [3, 4, 2, 1],
+    [3, 4, 1, 2],
+    [4, 2, 3, 1],
+    [4, 2, 1, 3],
+    [4, 3, 2, 1],
+    [4, 3, 1, 2],
+    [4, 1, 2, 3],
+    [4, 1, 3, 2],
+    [1, 1, 1, 1],
+    [2, 2, 2, 2],
+    [3, 3, 3, 3],
+    [4, 4, 4, 4],
+    // falhas
+    [1, 1, 1, 2],
+    [1, 1, 1, 3],
+    [1, 1, 1, 4],
+    [1, 1, 2, 1],
+    [1, 1, 3, 1],
+    [1, 1, 4, 1],
+    [1, 2, 1, 1],
+    [1, 3, 1, 1],
+    [1, 4, 1, 1],
+    [2, 1, 1, 1],
+    [3, 1, 1, 1],
+    [4, 1, 1, 1],
+    [3, 3, 3, 2],
+    [3, 3, 3, 1],
+    [3, 3, 3, 4],
+    [3, 3, 2, 3],
+    [3, 3, 1, 3],
+    [3, 3, 4, 3],
+    [3, 2, 3, 3],
+    [3, 1, 3, 3],
+    [3, 4, 3, 3],
+    [2, 3, 3, 3],
+    [1, 3, 3, 3],
+    [4, 3, 3, 3],
+    [2, 2, 2, 1],
+    [2, 2, 2, 3],
+    [2, 2, 2, 4],
+    [2, 2, 1, 2],
+    [2, 2, 3, 2],
+    [2, 2, 4, 2],
+    [2, 1, 2, 2],
+    [2, 3, 2, 2],
+    [2, 4, 2, 2],
+    [1, 2, 2, 2],
+    [3, 2, 2, 2],
+    [4, 2, 2, 2],
+  ];
+
+  const randomIndex = Math.floor(Math.random() * combinations.length);
+  return combinations[randomIndex];
+}
+
 function betLess() {
   if (aposta > 1) {
     aposta--;
@@ -49,8 +122,7 @@ function betTenMore() {
 }
 
 function verificaPremio() {
-  const chanceDeGanharBase = 0.4;
-  const chanceDeGanhar = sequenciaDerrotas >= 4 ? 0.49 : chanceDeGanharBase;
+  const combination = randomValue();
   const combinacoesPremio = [
     [1, 2, 3, 4],
     [1, 2, 4, 3],
