@@ -199,14 +199,14 @@ a:hover {
 
 @media (max-width: 576px) {
   .header {
-    margin-top: 35px;
+    margin-top: 60px;
   }
 
   .tela {
     margin-left: auto;
     margin-right: auto;
     margin-top: 80px;
-    width: 900px;
+    width: 350px;
     height: 300px;
     background-color: white;
     border-radius: 20px;
@@ -233,7 +233,7 @@ a:hover {
   .aposta {
     margin-top: 5px;
     border-radius: 10px;
-    width: 200px;
+    width: 100px;
     height: 30px;
     border: rgb(173, 173, 173) solid 2px;
   }
@@ -245,52 +245,50 @@ a:hover {
     border: rgb(173, 173, 173) solid 2px;
   }
 
-  .slot1 {
-    margin-top: 80px;
-    padding-left: 57px;
-    padding-right: 57px;
-    float: left;
-    border-right: thin dashed black;
-    width: 90px;
-    height: 90px;
-    vertical-align: middle;
-  }
   .escud1 {
-    width: 150px;
-    height: 150px;
+    width: 50px;
+    height: 50px;
   }
   .escud2 {
-    width: 150px;
-    height: 150px;
+    width: 50px;
+    height: 50px;
   }
   .escud3 {
-    width: 150px;
-    height: 150px;
+    width: 50px;
+    height: 50px;
   }
   .escud4 {
-    width: 150px;
-    height: 150px;
+    width: 50px;
+    height: 50px;
+  }
+
+  .slot1 {
+    margin-top: 20px;
+    padding-left: 5px;
+    padding-right: 5px;
+    float: left;
+    width: 10px;
+    height: 10px;
+    vertical-align: middle;
   }
 
   .slot2 {
-    margin-top: 80px;
-    padding-left: 57px;
-    padding-right: 57px;
+    margin-top: 20px;
+    padding-left: 5px;
+    padding-right: 5px;
     float: left;
-    border-right: thin dashed black;
-    width: 90px;
-    height: 90px;
+    width: 10px;
+    height: 10px;
     vertical-align: middle;
   }
 
   .slot3 {
-    margin-top: 80px;
-    padding-left: 57px;
-    padding-right: 57px;
+    margin-top: 20px;
+    padding-left: 5px;
+    padding-right: 5px;
     float: left;
-    border-right: thin dashed black;
-    width: 90px;
-    height: 90px;
+    width: 10px;
+    height: 10px;
     vertical-align: middle;
   }
 
@@ -309,8 +307,7 @@ a:hover {
     margin-left: 1600px;
   }
   .rodapeTabela {
-    margin-top: -500px;
-    margin-left: 50px;
+    display: none;
   }
 
   .iconTabela {
@@ -335,7 +332,7 @@ a:hover {
     width: 1920px;
   }
   .spinButton {
-    margin-top: 150px;
+    margin-top: 0px;
     margin-left: -430px;
   }
 
