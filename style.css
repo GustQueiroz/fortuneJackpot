@@ -198,14 +198,265 @@ a:hover {
 }
 
 /* ------------------------------- */
-
-@media (max-width: 768px) {
+@media (max-width: 884px) {
   body {
     display: flex;
     overflow: hidden;
   }
   .header {
-    margin-top: 60px;
+    margin-top: 90px;
+  }
+  .tela {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    width: 680px;
+    height: 180px;
+    background-color: white;
+    border-radius: 20px;
+    border: rgb(173, 173, 173) solid 1px;
+  }
+
+  .creditos_txt {
+    margin-left: 0px;
+    font-weight: bold;
+  }
+
+  .valor_txt {
+    font-weight: bold;
+    margin-left: 0px;
+  }
+
+  .valor {
+    margin-left: 2px;
+  }
+
+  .aposta {
+    margin-top: 5px;
+    border-radius: 10px;
+    width: 150px;
+    height: 30px;
+    border: rgb(173, 173, 173) solid 1px;
+  }
+  .credito {
+    margin-top: 5px;
+    border-radius: 10px;
+    width: 140px;
+    height: 30px;
+    border: rgb(173, 173, 173) solid 1px;
+  }
+
+  .escud1 {
+    width: 100px;
+    height: 100px;
+  }
+  .escud2 {
+    width: 100px;
+    height: 100px;
+  }
+  .escud3 {
+    width: 100px;
+    height: 100px;
+  }
+  .escud4 {
+    width: 100px;
+    height: 100px;
+  }
+
+  .slot1 {
+    margin-top: 40px;
+    padding-left: 100px;
+    padding-right: 70px;
+    float: left;
+    width: 10px;
+    height: 10px;
+    vertical-align: middle;
+  }
+
+  .slot2 {
+    margin-top: 40px;
+    padding-left: 40px;
+    padding-right: 70px;
+    float: left;
+    width: 10px;
+    height: 10px;
+    vertical-align: middle;
+  }
+
+  .slot3 {
+    margin-top: 40px;
+    padding-left: 40px;
+    padding-right: 70px;
+    float: left;
+    width: 10px;
+    height: 10px;
+    vertical-align: middle;
+  }
+
+  .slot4 {
+    margin-top: 40px;
+    padding-left: 40px;
+    padding-right: 70px;
+    float: left;
+    width: 10px;
+    height: 10px;
+    vertical-align: middle;
+  }
+
+  .rodapeImg {
+    display: none;
+  }
+  .rodapeTabela {
+    display: none;
+  }
+
+  .iconImage {
+    width: 300px;
+    height: 300px;
+  }
+  .botoes {
+    margin-left: 130px;
+    margin-top: 50px;
+    width: 100%;
+  }
+  .spinButton {
+    margin-top: 100px;
+    margin-left: -130px;
+  }
+}
+@media (max-width: 834px) {
+  body {
+    display: flex;
+    overflow: hidden;
+  }
+  .header {
+    margin-top: 100px;
+  }
+  .tela {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    width: 680px;
+    height: 180px;
+    background-color: white;
+    border-radius: 20px;
+    border: rgb(173, 173, 173) solid 1px;
+  }
+
+  .creditos_txt {
+    margin-left: 0px;
+    font-weight: bold;
+  }
+
+  .valor_txt {
+    font-weight: bold;
+    margin-left: 0px;
+  }
+
+  .valor {
+    margin-left: 2px;
+  }
+
+  .aposta {
+    margin-top: 5px;
+    border-radius: 10px;
+    width: 150px;
+    height: 30px;
+    border: rgb(173, 173, 173) solid 1px;
+  }
+  .credito {
+    margin-top: 5px;
+    border-radius: 10px;
+    width: 140px;
+    height: 30px;
+    border: rgb(173, 173, 173) solid 1px;
+  }
+
+  .escud1 {
+    width: 100px;
+    height: 100px;
+  }
+  .escud2 {
+    width: 100px;
+    height: 100px;
+  }
+  .escud3 {
+    width: 100px;
+    height: 100px;
+  }
+  .escud4 {
+    width: 100px;
+    height: 100px;
+  }
+
+  .slot1 {
+    margin-top: 40px;
+    padding-left: 100px;
+    padding-right: 70px;
+    float: left;
+    width: 10px;
+    height: 10px;
+    vertical-align: middle;
+  }
+
+  .slot2 {
+    margin-top: 40px;
+    padding-left: 40px;
+    padding-right: 70px;
+    float: left;
+    width: 10px;
+    height: 10px;
+    vertical-align: middle;
+  }
+
+  .slot3 {
+    margin-top: 40px;
+    padding-left: 40px;
+    padding-right: 70px;
+    float: left;
+    width: 10px;
+    height: 10px;
+    vertical-align: middle;
+  }
+
+  .slot4 {
+    margin-top: 40px;
+    padding-left: 40px;
+    padding-right: 70px;
+    float: left;
+    width: 10px;
+    height: 10px;
+    vertical-align: middle;
+  }
+
+  .rodapeImg {
+    display: none;
+  }
+  .rodapeTabela {
+    display: none;
+  }
+
+  .iconImage {
+    width: 300px;
+    height: 300px;
+  }
+  .botoes {
+    margin-left: 110px;
+    margin-top: 50px;
+    width: 100%;
+  }
+  .spinButton {
+    margin-top: 100px;
+    margin-left: -130px;
+  }
+}
+@media (max-width: 767px) {
+  body {
+    display: flex;
+    overflow: hidden;
+  }
+  .header {
+    margin-top: 100px;
   }
   .tela {
     margin-left: auto;
@@ -493,7 +744,6 @@ a:hover {
     cursor: pointer;
   }
 }
-
 @media (max-width: 428px) {
   body {
     display: flex;
