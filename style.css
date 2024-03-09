@@ -198,16 +198,19 @@ a:hover {
 }
 
 @media (max-width: 576px) {
+  body {
+    display: flex;
+    overflow: hidden;
+  }
   .header {
     margin-top: 60px;
   }
-
   .tela {
     margin-left: auto;
     margin-right: auto;
     margin-top: 80px;
     width: 350px;
-    height: 300px;
+    height: 150px;
     background-color: white;
     border-radius: 20px;
     border: rgb(173, 173, 173) solid 2px;
@@ -217,17 +220,17 @@ a:hover {
   }
 
   .creditos_txt {
-    margin-left: 70px;
+    margin-left: 7px;
     font-weight: bold;
   }
 
   .valor_txt {
     font-weight: bold;
-    margin-left: 250px;
+    margin-left: 2px;
   }
 
   .valor {
-    margin-left: 200px;
+    margin-left: 2px;
   }
 
   .aposta {
@@ -246,26 +249,26 @@ a:hover {
   }
 
   .escud1 {
-    width: 50px;
-    height: 50px;
+    width: 60px;
+    height: 60px;
   }
   .escud2 {
-    width: 50px;
-    height: 50px;
+    width: 60px;
+    height: 60px;
   }
   .escud3 {
-    width: 50px;
-    height: 50px;
+    width: 60px;
+    height: 60px;
   }
   .escud4 {
-    width: 50px;
-    height: 50px;
+    width: 55px;
+    height: 55px;
   }
 
   .slot1 {
-    margin-top: 20px;
-    padding-left: 5px;
-    padding-right: 5px;
+    margin-top: 50px;
+    padding-left: 40px;
+    padding-right: 55px;
     float: left;
     width: 10px;
     height: 10px;
@@ -273,9 +276,9 @@ a:hover {
   }
 
   .slot2 {
-    margin-top: 20px;
+    margin-top: 50px;
     padding-left: 5px;
-    padding-right: 5px;
+    padding-right: 55px;
     float: left;
     width: 10px;
     height: 10px;
@@ -283,9 +286,9 @@ a:hover {
   }
 
   .slot3 {
-    margin-top: 20px;
+    margin-top: 50px;
     padding-left: 5px;
-    padding-right: 5px;
+    padding-right: 55px;
     float: left;
     width: 10px;
     height: 10px;
@@ -293,47 +296,34 @@ a:hover {
   }
 
   .slot4 {
-    margin-top: 80px;
-    padding-left: 57px;
-    padding-right: 57px;
+    margin-top: 50px;
+    padding-left: 5px;
+    padding-right: 55px;
     float: left;
-    width: 90px;
-    height: 90px;
+    width: 10px;
+    height: 10px;
     vertical-align: middle;
   }
 
   .rodapeImg {
-    margin-top: -250px;
-    margin-left: 1600px;
+    display: none;
   }
   .rodapeTabela {
     display: none;
-  }
-
-  .iconTabela {
-    width: 300px;
-    height: 450px;
   }
 
   .iconImage {
     width: 300px;
     height: 300px;
   }
-
-  .tabela {
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-    font-weight: bold;
-  }
   .botoes {
-    margin-left: 650px;
+    margin-left: 0px;
     margin-top: 80px;
-    width: 1920px;
+    width: 100%;
   }
   .spinButton {
-    margin-top: 0px;
-    margin-left: -430px;
+    margin-top: 100px;
+    margin-left: 0px;
   }
 
   .mais {
