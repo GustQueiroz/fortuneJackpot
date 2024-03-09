@@ -208,25 +208,25 @@ a:hover {
   .tela {
     margin-left: auto;
     margin-right: auto;
-    margin-top: 80px;
+    margin-top: 40px;
     width: 350px;
     height: 150px;
     background-color: white;
     border-radius: 20px;
-    border: rgb(173, 173, 173) solid 2px;
+    border: rgb(173, 173, 173) solid 1px;
   }
   .moneyInputs {
     display: flex;
   }
 
   .creditos_txt {
-    margin-left: 7px;
+    margin-left: 0px;
     font-weight: bold;
   }
 
   .valor_txt {
     font-weight: bold;
-    margin-left: 2px;
+    margin-left: 0px;
   }
 
   .valor {
@@ -236,16 +236,16 @@ a:hover {
   .aposta {
     margin-top: 5px;
     border-radius: 10px;
-    width: 100px;
+    width: 150px;
     height: 30px;
-    border: rgb(173, 173, 173) solid 2px;
+    border: rgb(173, 173, 173) solid 1px;
   }
   .credito {
     margin-top: 5px;
     border-radius: 10px;
-    width: 200px;
+    width: 140px;
     height: 30px;
-    border: rgb(173, 173, 173) solid 2px;
+    border: rgb(173, 173, 173) solid 1px;
   }
 
   .escud1 {
@@ -317,8 +317,8 @@ a:hover {
     height: 300px;
   }
   .botoes {
-    margin-left: 0px;
-    margin-top: 80px;
+    margin-left: 40px;
+    margin-top: 50px;
     width: 100%;
   }
   .spinButton {
