@@ -450,6 +450,135 @@ a:hover {
     margin-left: -130px;
   }
 }
+@media (max-width: 1280px) {
+  body {
+    display: flex;
+    overflow: hidden;
+  }
+  .header {
+    margin-top: 62px;
+  }
+  .tela {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    width: 750px;
+    height: 260px;
+    background-color: white;
+    border-radius: 20px;
+    border: rgb(173, 173, 173) solid 1px;
+  }
+  .moneyInputs {
+    display: flex;
+  }
+
+  .creditos_txt {
+    margin-left: 0px;
+    font-weight: bold;
+  }
+
+  .valor_txt {
+    font-weight: bold;
+    margin-left: 0px;
+  }
+
+  .valor {
+    margin-left: 2px;
+  }
+
+  .aposta {
+    margin-top: 5px;
+    border-radius: 10px;
+    width: 150px;
+    height: 30px;
+    border: rgb(173, 173, 173) solid 1px;
+  }
+  .credito {
+    margin-top: 5px;
+    border-radius: 10px;
+    width: 140px;
+    height: 30px;
+    border: rgb(173, 173, 173) solid 1px;
+  }
+
+  .escud1 {
+    width: 120px;
+    height: 120px;
+  }
+  .escud2 {
+    width: 120px;
+    height: 120px;
+  }
+  .escud3 {
+    width: 120px;
+    height: 120px;
+  }
+  .escud4 {
+    width: 120px;
+    height: 120px;
+  }
+
+  .slot1 {
+    margin-top: 70px;
+    padding-left: 90px;
+    padding-right: 90px;
+    float: left;
+    width: 10px;
+    height: 10px;
+    vertical-align: middle;
+  }
+
+  .slot2 {
+    margin-top: 70px;
+    padding-left: 40px;
+    padding-right: 90px;
+    float: left;
+    width: 10px;
+    height: 10px;
+    vertical-align: middle;
+  }
+
+  .slot3 {
+    margin-top: 70px;
+    padding-left: 40px;
+    padding-right: 90px;
+    float: left;
+    width: 10px;
+    height: 10px;
+    vertical-align: middle;
+  }
+
+  .slot4 {
+    margin-top: 70px;
+    padding-left: 40px;
+    padding-right: 90px;
+    float: left;
+    width: 10px;
+    height: 10px;
+    vertical-align: middle;
+  }
+
+  .rodapeImg {
+    display: none;
+  }
+  .rodapeTabela {
+    display: none;
+  }
+
+  .iconImage {
+    width: 300px;
+    height: 300px;
+  }
+  .botoes {
+    margin-left: 320px;
+    margin-top: 50px;
+    width: 100%;
+  }
+  .spinButton {
+    margin-top: 100px;
+    margin-left: -120px;
+  }
+}
 @media (max-width: 767px) {
   body {
     display: flex;
